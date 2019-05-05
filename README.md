@@ -11,7 +11,7 @@ this is the two page-ui components
 #### template代码:
 >**```<page class="page"	:totalNum.sync="totalNum" :limitPage.sync="limitPage" :pageIndex.sync="pageIndex"></page>```**
 >>子组件依赖三个值分别是:totalNum:传入的记录总条数、limitPage:传入了每页显示条数、pageIndex:当前页码。
->>>备注：totalNum、limitPage、pageIndex 这三个值都可以被子组件更改
+>>>备注：totalNum、limitPage、pageIndex 这两个值limitPage、pageIndex可以被子组件更改
 ---
 ## paging 组件
 >老分页类组件
